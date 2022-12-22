@@ -2,5 +2,5 @@
 **Online Simulation of Mycelial Growth**
 
 ~~~
-Read yincoProjectReport.odt for background, motivation, 
+Read yincoProjectReport for background, motivation, 
 and evaluation of the project.
