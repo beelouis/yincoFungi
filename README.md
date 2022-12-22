@@ -1,2 +1,6 @@
-# yincoFungi
-my Year in Computing final project: a simulation of mycelial foraging and signal propagation for efficient morophogensis
+### Year in Computing - Final Project
+**Online Simulation of Mycelial Growth**
+
+~~~
+Read yincoProjectReport.odt for background, motivation, 
+and evaluation of the project.

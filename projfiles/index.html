@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mycelial Growth</title>
+    <!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script> -->
+    <script src = "p5.js"></script>
+    <script src = "gui.js"></script>
+    <script src = "sketch.js"></script>
+    <script src = "fungus.js"></script>
+    <script src = "branch.js"></script>
+    <script src = "cell.js"></script>
+    <script src = "spore.js"></script>
+    <script src = "cursorSquare.js"></script>
+    <script src = "food.js"></script>
+
+    <script src = "../ccapture.js/src/CCapture.js"></script>
+    <script src = "../ccapture.js/src/download.js"></script>
+    <script src = "../ccapture.js/src/webm-writer-0.2.0.js"></script>
+    <script> let capturer = new CCapture ({format: "webm", framerate: 60, verbose: true}); </script>
+
+    <link rel = "stylesheet" href = "style.css"></link>
+
+  </head>
+
+  <body>
+  <div>
+    <p>
+      <ul>
+        <li>Place Food Objects with left click; right click to remove them</li>
+        <li>Scroll to change their size</li>
+        <li>Select the parameters for the fungus</li>
+        <li>Press the Place Fungus button to place it in the centre of the screen</li>
+        <li>Press Play to start the simulation</li>
+        <br>
+        <li>The fungus will grow from the centre of the screen, and attempt to find the woodblocks</li>
+        <li>When the fungus encounters a woodblock, it will colonize it, and re-explore the environment</li>
+        <li>As the fungus grows, it will regress branches that are unconnected to food</li>
+        <li>The branches of the fungus which have found food will be strengthened</li>
+        <li>After some time, all that will be left is the network that connects the fungus to each food source it found</li>
+        </ul>
+    </p>
+  </div>
+
+  <div id = "container">
+    <div id = "canvasdiv"></div>
+    <div id = "buttonsdiv"></div>
+    <div id = "fooddiv"></div>
+    <div id = "branchSliders"></div>
+    <div id = "reset"></div>
+  </div>
+
+  </body>
+</html>
